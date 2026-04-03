@@ -3,7 +3,7 @@ A Bash script that simplifies converting HEIF/HEIC images into JPG/PNG format.
 
 The script can work recursively through the subdirectories and mirror the directory tree at the output.
 
-```Bash
+```Text
 ./heiforc-convert.sh --help
 
 usage: heiforc-convert.sh [-i | --input-directory <path>] [-o | --output-directory <path>] [-f | --output-format <JPG|PNG>] [-q | --quality <0..100>] [-r | --recursive] [-k | --keep-directory-tree] [-h | --help]
@@ -42,7 +42,7 @@ usage: heiforc-convert.sh [-i | --input-directory <path>] [-o | --output-directo
 ---
 # Requirements
 
-The script should run on most of the modern Linux distros with Bash and the following tools installed
+The script should run on most of the modern Linux distros with Bash as a shell and the following tools installed
 * GNU grep
 * GNU sed
 * GNU awk
